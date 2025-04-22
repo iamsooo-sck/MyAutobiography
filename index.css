@@ -1,15 +1,14 @@
-/* General Styles */
 body {
-    font-family: "Roboto", sans-serif; /* Modern font for a sleek look */
+    font-family: "Roboto", sans-serif; 
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(to right, #ff7eb3, #ffd7a1); /* Gradient background for vibrancy */
-    color: #333333; /* Dark grey text for good readability */
+    background: linear-gradient(to right, #ff7eb3, #ffd7a1); 
+    color: #333333; 
 }
 
 h1, h2 {
-    color: #3d4e5c; /* Muted navy for headings */
+    color: #3d4e5c; 
     text-align: center;
     margin-top: 20px;
 }
@@ -25,17 +24,17 @@ p {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #5b6f7d; /* Neutral shade for links */
+    color: #5b6f7d; 
     transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-    color: #ff7eb3; /* Vibrant pink hover effect */
+    color: #ff7eb3; 
 }
 
-/* Navigation Bar */
+
 nav {
-    background-color: #333333; /* Dark grey for a modern feel */
+    background-color: #333333; 
     padding: 10px 0;
     text-align: center;
 }
@@ -43,67 +42,67 @@ nav {
 nav a {
     margin: 0 15px;
     font-size: 20px;
-    color: #ffd7a1; /* Soft peach for a warm tone */
+    color: #ffd7a1; 
 }
 
 nav a:hover {
-    color: #ff7eb3; /* Pink hover effect to match the background */
+    color: #ff7eb3; 
 }
 
-/* About Section */
+
 #about-section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Transparent white overlay */
-    border: 2px solid #ff7eb3; /* Pink border for emphasis */
-    border-radius: 16px; /* Rounded corners for elegance */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid #ff7eb3; 
+    border-radius: 16px; 
 }
 
-/* Journey Section */
+
 #journey-section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 239, 213, 0.8); /* Peach overlay for warmth */
-    border: 2px solid #ffd7a1; /* Peach border to complement */
+    background-color: rgba(255, 239, 213, 0.8); 
+    border: 2px solid #ffd7a1; 
     border-radius: 16px;
 }
 
-/* Circular Image */
+
 img {
     display: block;
     margin: 20px auto;
-    border-radius: 50%; /* Circular image styling */
-    border: 5px solid #ff7eb3; /* Pink border for vibrancy */
+    border-radius: 50%; 
+    border: 5px solid #ff7eb3; 
     width: 150px;
     height: 150px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333333; /* Consistent footer background */
-    color: #ffd7a1; /* Soft peach text */
+    background-color: #333333; 
+    color: #ffd7a1; 
     font-size: 14px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for separation */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
 }
 #social-links {
     text-align: center;
     margin: 30px 0;
     font-size: 20px;
-    color: #5b6f7d; /* Neutral shade for links */
+    color: #5b6f7d; 
 }
 
 #social-links a {
-    color: #5b6f7d; /* Matches the design */
+    color: #5b6f7d; 
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease-in-out;
 }
 
 #social-links a:hover {
-    color: #ff7eb3; /* Vibrant hover effect */
+    color: #ff7eb3; 
 }
